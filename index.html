@@ -1,0 +1,33 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>FILTRO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header >
+            <button id="searchUsers">Buscador de Usuarios</button>
+            <button id="searchPosts">Buscador de Posts</button>
+    </header>
+
+    <main>
+        <div class="container active" id="userContainer">
+            <h1>Buscador de Usuarios</h1>
+            <p>Resultados: <span id="userCount"></span></p>
+            <input id="input" type="text" placeholder="Escribe un nombre..." />
+            <ul id="list"></ul>
+        </div>
+        
+        <div class="container inactive" id="postContainer">
+            <h1>Buscador en Posts</h1>
+            <p>Resultados: <span id="postCount"></span></p>
+            <input id="postInput" type="text" placeholder="Escribe una palabra..." />
+            <ul id="postList"></ul>
+        </div>
+        
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>

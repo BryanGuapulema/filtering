@@ -13,7 +13,6 @@ const PostsCointainer = document.querySelector("#postContainer")
 const userCount = document.querySelector("#userCount")
 const postCount = document.querySelector("#postCount")
 
-
 let users = []
 let posts = []
 
